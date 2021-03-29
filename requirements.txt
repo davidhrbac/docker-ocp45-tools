@@ -31,7 +31,7 @@ msgpack==0.6.2
 munch==2.5.0
 netaddr==0.8.0
 netifaces==0.10.9
-openstacksdk==0.55.0
+openstacksdk==0.52.0
 os-client-config==2.1.0
 os-service-types==1.7.0
 osc-lib==2.3.1
