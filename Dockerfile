@@ -4,4 +4,4 @@ RUN pip install python-keystoneclient python-neutronclient python-openstackclien
 
 RUN curl -SL https://mirror.openshift.com/pub/openshift-v4/clients/ocp/4.5.6/openshift-install-linux-4.5.6.tar.gz | tar -xzC /usr/local/bin/
 
-RUN apt update && apt install jq
+RUN apt update && apt -y install jq
